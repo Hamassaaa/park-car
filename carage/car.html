@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="car.css">
+  <title>Document</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+                            <!-- end head  -->
+
+                            <!-- start navbar  -->
+<body>
+<div h1>
+    <a class="navbar-brand" href="car.html">AutoSphere</a>
+</div>
+<div id="mainbar">
+  <ul class="home">
+    <li><a c href="car.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="cotnat us .html">Call Us</a></li>
+    <li><a href="sign.html">Sign In</a></li>
+</ul>
+</div>
+  <div search>
+    <div class="search-container">
+  <input type="text" class="search-input search-text" placeholder="search...">
+</div>
+</div>
+                        <!-- end navbar -->
+                  <!-- start Carousel -->
+ <div id="carousel" >
+<div class="card" style="width: 18rem;">
+  <img src="image/pn1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+<a href="https://www.bing.com/ck/a?!&&p=6b208416d29e5e059aa093f9e694ca709ff19a580cfcc2acb6efdc3906e29dc5JmltdHM9MTczMjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=1cfb60a3-133b-6ced-342b-70fe122d6dd3&u=a1L2ltYWdlcy9zZWFyY2g_cT1sdXh1cnkrY2FyJnFwdnQ9bHV4dXJ5K2NhciZGT1JNPUlHUkU&ntb=1" class="card-titlee">luxury cars</a>  
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="image/pn2.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href="https://www.bing.com/images/search?q=electric%20car&qs=n&form=QBIR&sp=-1&lq=0&pq=electric%20c&sc=10-10&cvid=2D5A9B8FE00E4805B76115A3F00B07BA&ghsh=0&ghacc=0&first=1" class="card-titlee">elictric cars</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="image/pn3.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href="https://www.bing.com/images/search?q=sedan%20car&qs=n&form=QBIR&sp=-1&lq=0&pq=sedan%20car&sc=10-9&cvid=D302A2D0631D416D96C0EDC1EFB34F04&ghsh=0&ghacc=0&first=1" class="card-titlee">sedan cars</a> 
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="image/pn4.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href="https://www.bing.com/images/search?q=electric%20car&qs=n&form=QBIR&sp=-1&lq=0&pq=electric%20c&sc=10-10&cvid=2D5A9B8FE00E4805B76115A3F00B07BA&ghsh=0&ghacc=0&first=1" class="card-titlee">suv cars</a> 
+  </div>
+</div>
+</div>
+                  <!-- end caroursel  -->
+                   <!-- start buy bar  -->
+<div class="moo">
+    <h2>Explore Our Cars</h2>
+    <div class="car-categories">
+        <div class="category">
+            <h3>Sedan</h3>
+            <p>Experience comfort and efficiency with our wide range of sedan cars.</p>
+        </div>
+        <div class="category">
+            <h3>SUV</h3>
+            <p>Power and space combined for your adventures on and off-road.</p>
+        </div>
+        <div class="category">
+            <h3>Luxury</h3>
+            <p>Indulge in sophistication and style with our premium luxury cars.</p>
+        </div>
+        <div class="category">
+            <h3>Electric</h3>
+            <p>Step into the future with our eco-friendly electric vehicles.</p>
+        </div>
+    </div>
+</div>
+
+          <!-- end buy bar  -->
+<div class="test-drive-form">
+    <h3>Book a Test Drive</h3>
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        
+        <label for="car">Select Car:</label>
+        <select id="car">
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="electric">Electric</option>
+        </select>
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+ <footer>
+<div class="footer-bottom">
+  <p>&copy; 2024 Car Sales. All rights reserved.</p>
+</div>
+</footer>  
+       
+  
+<script>
+
+              const nextButton = document.querySelector('.carousel-control-next');
+              const items = document.querySelectorAll('.carousel-item');
+              let currentIndex = 0;
+              
+              nextButton.addEventListener('click', () => {
+                items[currentIndex].classList.remove('active'); // إزالة العنصر النشط
+                currentIndex = (currentIndex + 1) % items.length; // الانتقال إلى العنصر التالي
+                items[currentIndex].classList.add('active'); // تعيين العنصر الجديد كـ نشط
+              });
+</script>   
+<link rel="stylesheet" href="js/bootstrap.js">
+</body>
+</html>

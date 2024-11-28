@@ -1,0 +1,148 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    height: 500px;
+  }
+  .navbar-brand{
+    background-color: #ff0000b6; 
+       position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-top: 10px;
+    font-style: oblique;
+    font-size:20px;
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.477);
+    padding: 3px 15px;
+    border-color: rgb(142, 59, 59);
+    text-transform:capitalize;
+    z-index: 100000000000;
+    
+}
+.navbar-brand:hover{
+    margin-top: 25px;
+    transition: 0.5s;
+    background-color: rgba(167, 157, 157, 0.151);
+
+
+
+}
+                    /* end h1  */
+                  /* start homebar */
+.home {
+    display: flex;
+    position: absolute;
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    padding: 0;
+    margin-left: 350px;
+    justify-content: center; /* محاذاة العناصر في المنتصف */
+    border-radius: 10px; /* منح الحواف الشكل المدور */
+    box-shadow: 0 10px 15px rgb(9, 3, 3); /* إضافة ظل للقائمة */
+    margin-top: 35px; /* ترك مسافة من الأعلى */
+}
+
+li {
+    margin: 0 20px; /* مسافة بين العناصر */
+}
+
+a {
+    text-decoration: none; /* إزالة التسطير من الروابط */
+    color: rgb(255, 255, 255); /* النص باللون الأبيض */
+    background-color: #ffffff; /* عند المرور بالفأرة يصبح لون الخلفية أحمر */
+    color: #000000; /* النص يبقى أبيض */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #000000; /* عند المرور بالفأرة يصبح لون الخلفية أحمر */
+     border-style: solid;
+     border-color: white;
+     background-color: rgba(255, 255, 255, 0.347);
+}
+
+a:active {
+    background-color: #a4a3a3; /* عند الضغط على الرابط يصبح لونه أزرق */
+}
+                  /* end homebar */
+/* start searchbar */
+
+.search-container{
+    position:relative;
+    margin-left: 1050px;
+    margin-top: 10px;
+}
+.search-input{
+    border-color: #ffffff;
+    border-radius: 20px;
+background-color: #fffffff0;
+}
+.search-text{
+    text-align: center;
+background-color: #00000000;    text-transform: capitalize;
+
+}
+                    /* end searchbar */
+                     /* end navbar */
+
+  
+  
+               /* About Us section */
+  .about-us {
+    margin-top: 35px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  .content {
+    color: #000000;
+    text-shadow: 3px 4px 1px rgba(0, 0, 0, 0.301);
+    font-size: 18px;
+    max-width: 600px;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff9d, #ffffff95);    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(53, 53, 53, 0.411);
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e61f2f;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #e60000;
+    transform: scale(1.05);
+  }
+                  /* end about us  */
+
